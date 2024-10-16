@@ -1,0 +1,28 @@
+.progress {
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 4rem 2rem;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: cornflowerblue;
+  text-align: center;
+  overflow: hidden;
+  color: azure;
+  transition: 0.8s ease;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.buttons button {
+  background-color: cadetblue;
+}
